@@ -12,6 +12,7 @@ This document summarizes the high-level changes and improvements made to the `q_
 4. **Improved Debugging**: Strategic assertions and plot saving
 5. **Easier Experimentation**: Plot saving and seed management
 6. **Professional Standards**: Follows Python best practices (PEP 8, PEP 484, PEP 257)
+7. **More Organized and Modular Code Structure**: Separates code to make it more readible and easily editable
 
 ---
 
