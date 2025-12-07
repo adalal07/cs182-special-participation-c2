@@ -47,20 +47,7 @@ conda activate transformer_env
 Install the required libraries:
 
 ```bash
-# Install NumPy
-conda install numpy -y
-
-# Install PyTorch (CPU version - sufficient for this notebook)
-# For macOS/Linux:
-conda install pytorch -c pytorch -y
-
-# For Windows, use:
-# conda install pytorch -c pytorch -y
-
-# Install Matplotlib
-conda install matplotlib -y
-
-# Alternatively, install all at once:
+# Install relevant packages
 conda install numpy pytorch matplotlib -c pytorch -y
 ```
 
