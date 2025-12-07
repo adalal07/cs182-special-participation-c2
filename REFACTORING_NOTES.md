@@ -104,6 +104,10 @@ This document summarizes the high-level changes and improvements made to the `q_
 - Clear dependencies between components
 - Better support for future extensions
 
+### 7. Module Extraction and Test Consolidation
+
+**Helper Function Organization**: Split helper functions into purpose-specific modules (`utils/utils.py` for general utilities, `utils/plotting.py` for visualization, `utils/training.py` for training, `utils/comparison.py` for transformer comparison) to improve maintainability and reduce notebook clutter. **Test Consolidation**: Combined all test files into a single `tests/test_transformer.py` with a shared `_run_equivalence_test()` helper function to eliminate code duplication while maintaining clear, focused test functions for different scenarios.
+
 ---
 
 **Note**: This refactoring was performed to improve code quality while maintaining the educational objectives of the original notebook. All changes have been carefully reviewed to ensure they enhance rather than detract from the learning experience. The process of refactoring and improving the notebook were aided by Claude Opus 4.5 
